@@ -1,5 +1,5 @@
 {% set name = "pylogbeat" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 539e994e467190273edbada1359465094f0fc9d875d314811f0eb393c9c43978
+  sha256: c2c030050c9f312249500df63a1d651bbe6d9c5df54f70fc434115ef29d51638
 
 build:
   number: 0
